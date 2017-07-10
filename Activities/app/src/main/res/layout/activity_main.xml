@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.ritwijsn.cs478.project1.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Welcome to CS 478! Press one of the buttons for action!\n"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        android:id="@+id/btnButton1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:onClick="startSecondActivity"
+        android:background="@android:drawable/editbox_dropdown_light_frame" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        android:id="@+id/btnButton2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/bright_foreground_material_light"
+        android:textStyle="normal"
+        android:enabled="true"
+        android:onClick="onButtonPress2"
+        android:background="@android:drawable/editbox_dropdown_light_frame" />
+</LinearLayout>

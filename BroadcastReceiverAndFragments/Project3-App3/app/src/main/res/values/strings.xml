@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chicago Hotels And Restaurants</string>
+    <string name="optionHotel">Hotel</string>
+    <string name="optionRestaurant">Restaurant</string>
+</resources>
